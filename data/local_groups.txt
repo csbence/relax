@@ -1,3 +1,44 @@
+group: UNH
+
+L = {
+	c:string, cno:number
+	uk,  100
+	jp, 200
+	ru, 300
+	nz, 400
+	usa, 500
+}
+
+A = {
+	city:string, ano:number, cno:number, year:number
+	ny, 1, 500, 1912
+	bos, 2, 500, 1940
+	la, 3, 500, 1942
+	auk, 5, 400, 1949
+	chu, 6, 400, 1965
+	lon, 7, 100, 1915
+	wel, 8, 400, 1950
+	tok, 9, 200, 1936
+	chu, 11, 100, 1942
+}
+
+W  = {
+	w:string, ano:number
+	B, 6
+	G, 3
+	J, 7
+	M, 7
+	M, 8
+	R, 1
+	R, 2
+	S, 6
+	S, 8
+	T, 6
+	T, 7
+	T, 11
+}
+
+
 group: UIBK - R, S, T
 description: Tables from and for the lecture [Databases: Foundations, Data Models and System Concepts - University of Innsbruck](http://dbis-informatik.uibk.ac.at/249-0-VO-Datenbanksysteme.html) chapter 3 
 
